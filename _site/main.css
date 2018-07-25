@@ -6,6 +6,6 @@ body {
   color: #123;
   font-size: 1.5em;
   font-family: 'Poiret One', cursive, 'helvetica', 'sans';
-  // background: linear-gradient(to top right, #669900 0%, #ffddbb 100%);
-  background: linear-gradient(to bottom, #4d1300 0%, #ffeecc 100%);
+  /* background: linear-gradient(to bottom, #4d1300 0%, #ffeecc 100%); */
+  background: linear-gradient(to bottom, #0033cc 0%, #009900 100%);
 }
