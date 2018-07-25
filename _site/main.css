@@ -3,7 +3,7 @@
 body {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #123;
   font-size: 1.5em;
   font-family: 'Poiret One', cursive, 'helvetica', 'sans';
   // background: linear-gradient(to top right, #669900 0%, #ffddbb 100%);
