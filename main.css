@@ -8,9 +8,16 @@ body {
   font-family: 'Poiret One', cursive, 'helvetica', 'sans';
   /* background: linear-gradient(to bottom, #4d1300 0%, #ffeecc 100%); */
   /* background: linear-gradient(to bottom, #0033cc 0%, #009900 100%); */
-  background: linear-gradient(to bottom, #2f4f6f 0%, #3f6f2f 100%);
+  /* background: linear-gradient(to bottom, #2f4f6f 0%, #3f6f2f 100%); */
+  background: linear-gradient(to bottom, #2f4f6f 0%, #85966E 100%);
 }
-
+.content-container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  width: 100%;
+}
 
 /* Nav Bar Experimentation */
 .navbar .footer-navbar-nav {
@@ -24,6 +31,69 @@ body {
   text-align: center;
 } */
 
+/* HEADER STYLES */
+.header {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 20;
+}
+/* .header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  left: -30px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+} */
+.header-logo:hover,
+.header-logo:active {
+  background-color: #ed6e2f;
+}
+.header-logo img {
+  margin: 30px, 5vh, 5vh, 5vh;
+  width: 12vh;
+  height: 12vh;
+}
+.header-nav {
+  float: right;
+  padding: 1.5vh 30px 0 0;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav > li ~ li {
+  border-left: 5px solid rgba(255, 255, 255, 0.3);
+  padding-left: 1em;
+}
+.header-nav a {
+  color: #fff;
+}
+.nav-links a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-links a:hover,
+.nav-links a:active  {
+  color: #ed6e2f;
+}
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+.header-nav > li:first-child a:hover {
+  color: #fff;
+}
+.nav-up {
+  top: -40px; // same as header height. use variables in LESS/SASS
+}
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
