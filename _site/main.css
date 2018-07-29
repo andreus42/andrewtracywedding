@@ -9,13 +9,13 @@ body {
   /* background: linear-gradient(to bottom, #4d1300 0%, #ffeecc 100%); */
   /* background: linear-gradient(to bottom, #0033cc 0%, #009900 100%); */
   /* background: linear-gradient(to bottom, #2f4f6f 0%, #3f6f2f 100%); */
-  background: linear-gradient(to bottom, #2f4f6f 0%, #85966E 100%);
+  background: linear-gradient(to bottom, #506B7E 0%, #85966E 100%);
 }
 .content-container {
   align-content: center;
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 6vh;
   width: 100%;
 }
 
@@ -57,8 +57,8 @@ body {
 }
 .header-logo img {
   margin: 30px, 5vh, 5vh, 5vh;
-  width: 12vh;
-  height: 12vh;
+  width: 10.5vh;
+  height: 10.5vh;
 }
 .header-nav {
   float: right;
@@ -96,10 +96,11 @@ body {
 }
 /* HERO STYLES */
 .full-hero {
-  background-color: #c7dbfc;
+  background-color: #00aa00;
   background-size: cover;
   box-sizing: border-box;
-  height: 90vh;
+  height: 95vh;
+  position: left;
 }
 .full-hero:after {
   bottom: 2vh;
@@ -113,7 +114,7 @@ body {
   width: 0;
 }
 .hero-home {
-  background-image: url(../images/shark.jpg);
+  background-image: url(images/tracy_andy_gayhead.jpg);
   background-position: center top;
 }
 .hero-content {
