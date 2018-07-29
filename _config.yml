@@ -1,0 +1,6 @@
+  gems:
+    - jekyll-maps
+
+  maps:
+    google:
+      api_key: AIzaSyCpQcqrKNhnWcaEuGKySfsU_LN8Xt7uIyU

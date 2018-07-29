@@ -18,7 +18,6 @@ body {
   padding-top: 6vh;
   width: 100%;
 }
-
 /* Nav Bar Experimentation */
 .navbar .footer-navbar-nav {
   display: inline-block;
@@ -99,7 +98,7 @@ body {
   background-color: #00aa00;
   background-size: cover;
   box-sizing: border-box;
-  height: 95vh;
+  height: 85vh;
   position: left;
 }
 .full-hero:after {
